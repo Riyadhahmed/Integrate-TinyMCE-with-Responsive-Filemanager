@@ -18,7 +18,7 @@ Steps
 3. Add below script code into your web page
 
 
-<script type = "text/javascript">
+
 
     var BASE_URL = "http://localhost/Democode/TinyMCE_Responsive_Filemanager/";   // use your own base url
 
@@ -44,7 +44,7 @@ Steps
         filemanager_title: "Media Gallery",
         external_plugins: {"filemanager": BASE_URL + "filemanager/plugin.min.js"}   // plugin js file into your filemanger folder
     });
-</script>
+
 
 
 
