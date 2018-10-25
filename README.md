@@ -1,11 +1,11 @@
-<h1>Simple Code for integrating TinyMCE with Responsive Filemanager </h1> \ 
-You can use this code into codeigniter as well \ 
-local server must be installed in your system. i used xampp \
+<h1>Simple Code for integrating TinyMCE with Responsive Filemanager </h1> 
+You can use this code into codeigniter as well.   <br/> 
+local server must be installed in your system. i used xampp.   <br/>
 
 To integrate TinyMCE with Responsive Filemanager we can follow some steps
 
 
-Download this projects to view demo
+Download this project to view demo
 
 Steps 
 
@@ -50,10 +50,17 @@ Steps
 6. In config.php file you can also control file_number_limit_js, MaxSizeUpload, image_resizing and many more
 
 
+How to integrate in codeigniter?
+
+  1 .  Keep Downloaded tinymce and filemanager folder into your projects assets folder
+  2 .  Link your base url to assets folder
+
 Output : 
 
 ![alt text](./images/TinyMCE_default.png)
 ![alt text](./images/TinyMCE_filemanager.png)
+![alt text](./images/ci_integration_tinymce.png)
 
  Find me on Facebook  : [ My Facebook profile link](https://www.facebook.com/morshed.riyad) \
- Find me on  Linkedin  : [My Linkedin profile  link](https://www.linkedin.com/in/monjur-morshed-riyadh-6aaba465/)
+ Find me on  Linkedin  : [My Linkedin profile  link](https://www.linkedin.com/in/monjur-morshed-riyadh-6aaba465/)  \
+ Email me : riyadhahmed777@gmail.com
