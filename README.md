@@ -1,5 +1,6 @@
 <h1>Simple Code for integrating TinyMCE with Responsive Filemanager into a web page</h1>
 you can use this code into codeigniter as well
+local server must be installed in your system. i used xampp
 
 To integrate TinyMCE with Responsive Filemanager we can follow some steps
 
@@ -18,15 +19,12 @@ Steps
 3. Add below script code into your web page
 
 
-            <script type = "text/javascript">
-
-                var BASE_URL = "http://localhost/Democode/TinyMCE_Responsive_Filemanager/";   // use your own base url
-
-
+            <script type="text/javascript">
+                var BASE_URL = "http://localhost/git/Integrate-TinyMCE-with-Responsive-Filemanager/"; // use your own base url
                 tinymce.init({
-                    selector: "#BlogDetails",   // your textarea id
+                    selector: "#BlogDetails",
                     theme: "modern",
-                    // width: 680,    // you can add width and height as well
+                    // width: 680,
                     height: 200,
                     relative_urls: false,
                     remove_script_host: false,
@@ -39,10 +37,9 @@ Steps
                     toolbar1: "undo redo | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | styleselect",
                     toolbar2: "| responsivefilemanager | link unlink anchor | image media | forecolor backcolor  | print preview code ",
                     image_advtab: true,
-
-                    external_filemanager_path: BASE_URL + "filemanager/",      // filemanager folder
+                    external_filemanager_path: BASE_URL + "./filemanager/",
                     filemanager_title: "Media Gallery",
-                    external_plugins: {"filemanager": BASE_URL + "filemanager/plugin.min.js"}   // plugin js file into your filemanger folder
+                    external_plugins: { "filemanager": BASE_URL + "./filemanager/plugin.min.js" }
                 });
             </script>
 
@@ -51,3 +48,12 @@ Steps
 4. Edit config.php file located at  filemanager/config folder.
 5. Change the url of source and thumbs folder where files will be uploaded. 	
 6. In config.php file you can also control file_number_limit_js, MaxSizeUpload, image_resizing and many more
+
+
+Output : 
+
+![alt text](./images/TinyMCE_default.png)
+![alt text](./images/TinyMCE_filemanager.png)
+
+ My fb link : [a link](https://www.facebook.com/morshed.riyad)
+ Linkedin : [a link](https://www.linkedin.com/in/monjur-morshed-riyadh-6aaba465/)
