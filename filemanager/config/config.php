@@ -2,7 +2,7 @@
 if (session_id() == '') session_start();
 
 mb_internal_encoding('UTF-8');
-date_default_timezone_set('Europe/Rome');
+date_default_timezone_set('Asia/Dhaka');
 
 /*
 |--------------------------------------------------------------------------
@@ -60,7 +60,7 @@ $config = array(
 	*/
 	//'base_url' => ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] && ! in_array(strtolower($_SERVER['HTTPS']), array( 'off', 'no' ))) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'],
 
-	'base_url' =>'http://localhost/Democode/TinyMCE_Responsive_Filemanager/',
+	'base_url' =>'http://localhost/git/Integrate-TinyMCE-with-Responsive-Filemanager/',
 	
 	/*
 	|--------------------------------------------------------------------------

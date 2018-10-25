@@ -50,10 +50,11 @@ Steps
 6. In config.php file you can also control file_number_limit_js, MaxSizeUpload, image_resizing and many more
 
 
-How to integrate in codeigniter?
+How to integrate in Codeigniter?
 
-  1 .  Keep Downloaded tinymce and filemanager folder into your projects assets folder
+  1 .  Keep Downloaded tinymce and filemanager folder into your projects assets folder  
   2 .  Link your base url to assets folder
+  3 .  Change base url into filemanager/config/config.php and also you can change others folder url like source, thumb folder
 
 Output : 
 
