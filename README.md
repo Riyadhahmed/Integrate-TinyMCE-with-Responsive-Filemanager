@@ -1,6 +1,6 @@
-<h1>Simple Code for integrating TinyMCE with Responsive Filemanager into a web page</h1>
-you can use this code into codeigniter as well
-local server must be installed in your system. i used xampp
+<h1>Simple Code for integrating TinyMCE with Responsive Filemanager </h1> \ 
+You can use this code into codeigniter as well \ 
+local server must be installed in your system. i used xampp \
 
 To integrate TinyMCE with Responsive Filemanager we can follow some steps
 
@@ -55,5 +55,5 @@ Output :
 ![alt text](./images/TinyMCE_default.png)
 ![alt text](./images/TinyMCE_filemanager.png)
 
- My fb link : [a link](https://www.facebook.com/morshed.riyad)
- Linkedin : [a link](https://www.linkedin.com/in/monjur-morshed-riyadh-6aaba465/)
+ Find me on Facebook  : [ My Facebook profile link](https://www.facebook.com/morshed.riyad) \
+ Find me on  Linkedin  : [My Linkedin profile  link](https://www.linkedin.com/in/monjur-morshed-riyadh-6aaba465/)
